@@ -1,11 +1,11 @@
-import 'package:api_test/auth.screen.dart';
+import 'package:api_test/screens/auth.screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'default_tab_bar.dart';
-import 'firebase_options.dart';
-import 'provider.dart';
+import 'constants/default_tab_bar.dart';
+import 'firebase/firebase_options.dart';
+import 'providers/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
